@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DBKit/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "UIKit",
+      "prefix_header_file": "DBKit/Classes/UIKit/DBUIKit.pch",
+      "source_files": "DBKit/Classes/UIKit/*.{h,m}"
+    }
+  ]
 }

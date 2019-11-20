@@ -1,5 +1,7 @@
 PODS:
-  - DBKit (0.1.0)
+  - DBKit (0.1.0):
+    - DBKit/UIKit (= 0.1.0)
+  - DBKit/UIKit (0.1.0)
 
 DEPENDENCIES:
   - DBKit (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DBKit: 0976022c7170a9672862778b1c9e160ebce4397c
+  DBKit: 07cda3df396a36b09719829ddca8348126db0d76
 
 PODFILE CHECKSUM: f8d7c1d360d26968a7164f92c91c0a63b22feabd
 
